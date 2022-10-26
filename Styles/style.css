@@ -498,7 +498,7 @@ header {
     background-color: #16336d;
 }
 
-.tour-video video {
+.tour-video img {
     width: 100%;
     object-fit: fill;
     opacity: 0.5;
