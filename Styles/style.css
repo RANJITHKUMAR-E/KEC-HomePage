@@ -498,7 +498,7 @@ header {
     background-color: #16336d;
 }
 
-.tour-video img {
+.tour-video video {
     width: 100%;
     object-fit: fill;
     opacity: 0.5;
@@ -694,6 +694,9 @@ header {
     margin-left: 25px;
 }
 
+.addmission-info .kec-code a:hover {
+    background-color: #f35b04;
+}
 /* kec-acheivements */
 
 .kec-acheivements {
@@ -710,6 +713,9 @@ header {
     padding: 60px 30px;
 }
 
+.image-slides {
+    width: 100%;
+}
 .slide .slide-container {
     margin: 0px 20px;
 }
@@ -1013,7 +1019,6 @@ header {
 .kec-events {
     width: 100%;
     height: fit-content;
-    /* background: url(/Resources/Admin.jpg) no-repeat fixed 100%; */
 }
 
 .event-body {
@@ -1049,6 +1054,7 @@ header {
 
 .event-container {
     width: 30%;
+    height: 35vh;
     margin: 20px 20px 40px 20px;
     padding: 40px;
     border-radius: 6px;
@@ -1079,7 +1085,7 @@ header {
 
 .event-heading a:hover {
     color: #DE463B;
-    background-color: #ddd;
+    background-color: rgba(0, 213, 255, 0.1);
     transition: .3s ease-in;
     font-weight: bold;
 }
@@ -1110,7 +1116,8 @@ header {
 .event-container:hover {
     padding: 30px 20px;
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
-
+    background-color: #16336d;
+        transition: .5s ease-in-out;
 }
 
 .event-container:hover .event-icon {
@@ -1353,7 +1360,7 @@ header {
     height: 92vh;
     width: 100%;
     overflow: hidden;
-    background: url(/Resources/Admin-2-b.jpg) no-repeat fixed 100%;
+    background: url("../Resources/AdminBG.jpg") no-repeat fixed 100%;
 }
 
 .slide-container-2 {
